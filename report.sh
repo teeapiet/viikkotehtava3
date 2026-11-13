@@ -145,6 +145,14 @@ code {
     overflow-wrap: anywhere;
 }
 
+.how-it-works {
+    text-align: left;
+}
+
+.how-it-works h2 {
+    text-align: center;
+}
+
 </style>
 </head>
 
@@ -220,7 +228,7 @@ code {
     </p>
 </div>
 
-<div class="box">
+<div class="box how-it-works">
     <h2>How this works</h2>
 
     <p>
