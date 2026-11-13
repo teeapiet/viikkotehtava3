@@ -152,7 +152,13 @@ code {
 .how-it-works h2 {
     text-align: center;
 }
+.what-i-learned {
+    text-align: left;
+}
 
+.what-i-learned h2 {
+    text-align: center;
+}
 </style>
 </head>
 
@@ -272,7 +278,7 @@ code {
     </p>
 </div>
 
-<div class="box">
+<div class="box what-i-learned">
     <h2>What did i learn</h2>
 
     <p>
