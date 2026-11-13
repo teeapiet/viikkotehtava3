@@ -229,7 +229,7 @@ code {
        Runs the script and updates HTML report
     </p>
     </p>
-        <code>systeml list-timers --all viikko3.timer</code> -
+        <code>systemctl list-timers --all viikko3.timer</code> -
        Shows when the report will update next
     </p>
 </div>
@@ -245,7 +245,7 @@ code {
 </div>
 
 <div class="box test-results">
-    <h2>Test Results</h2>
+    <h2>Test results</h2>
 
     <h3>Syntax Check</h3>
     <p>
@@ -284,7 +284,7 @@ code {
     <p>
         At first, I saw "inactive (dead)" when checking systemd.
        I learned that the service can stop after running the script, but the timer needs to stay active to update the report automatically.  
-       But it was not big problem and i got it to work.
+       But it wasn't a big problem and i got it to work.
     </p>
 </div>
 
