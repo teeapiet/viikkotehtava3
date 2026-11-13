@@ -1,0 +1,10 @@
+[Unit]
+Description=Update Week 3 report every minute
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+Persistent=true
+Unit=viikko3.service
+
+[Install]
+WantedBy=timers.target
